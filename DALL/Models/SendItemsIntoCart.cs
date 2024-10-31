@@ -17,5 +17,6 @@ namespace DALL.Models
         public string Image { get; set; }
 
         public int Quantity { get; set; }
+        public int ItemId { get; set; }
     }
 }

@@ -45,6 +45,7 @@
     <Compile Include="Models\SendItemsIntoCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\CartRepository.cs" />
+    <Compile Include="Repository\SendItemsintoCartRepo.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

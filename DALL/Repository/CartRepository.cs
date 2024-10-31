@@ -87,12 +87,16 @@ namespace DALL.Repository
                 cmd.Parameters.AddWithValue("@Name",Obj.Name);
                 cmd.Parameters.AddWithValue("@Price", Obj.Price);
                 cmd.Parameters.AddWithValue("@Image",Obj.Image);
+                cmd.Parameters.AddWithValue("@ItemId", Obj.ItemId);
                 cmd.Parameters.AddWithValue("@Quantity", Obj.Quantity);
                 int i = cmd.ExecuteNonQuery();
                 return i;
             }
 
         }
+
+
+
 
     }
 }
